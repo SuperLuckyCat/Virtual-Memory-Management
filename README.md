@@ -19,8 +19,6 @@ count towards the instruction count. An instruction line is comprised of two int
 indicates whether the instruction is a read (value=0) or a write (value=1) operation and which virtual page is
 touched by that operation. You can assume that the input files are well formed as shown below, so fancy parsing
 is not required (but verify the virtual page index to fall within [0..63].
-#page reference generator
-#inst=1000000 pages=64 %read=75.000000 lambda=2.000000
 1 13
 0 34
 0 18
